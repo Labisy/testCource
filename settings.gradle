@@ -1,0 +1,3 @@
+rootProject.name = 'testCource'
+include 'selenium'
+
