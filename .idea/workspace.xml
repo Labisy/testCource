@@ -5,23 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="add test textBox element on demoqa">
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/MainPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/ElementPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/TextBox.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/Ticket.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/ResponseConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc9143cd34dbb1f90e925aaf8fbca971290cc061" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/main/java/ru/stepchenkov/original/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/Desktop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/Documents.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/Download.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/HomeCheckBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fc9143cd34dbb1f90e925aaf8fbca971290cc061" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/readProperties/ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/readProperties/ConfigurationProvider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/resources/application.conf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/ElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/ElementPage.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,7 +121,7 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.StartTests">
+  <component name="RunManager" selected="Gradle.StartTests.checkBox">
     <configuration name="DemoQaElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -200,6 +194,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="StartTests.checkBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":selenium:test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stepchenkov.test.demoqa.StartTests.checkBox&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="testCource [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -222,40 +240,18 @@
       <ForceTestExec>false</ForceTestExec>
       <method v="2" />
     </configuration>
-    <configuration name="testCource:selenium [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$/selenium" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value="build" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>false</ForceTestExec>
-      <method v="2" />
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StartTests.checkBox" />
+        <item itemvalue="Gradle.testCource [build]" />
         <item itemvalue="Gradle.StartTests" />
         <item itemvalue="Gradle.DemoQaElementsTest" />
         <item itemvalue="Gradle.DemoQaElementsTest.checkTextBox" />
-        <item itemvalue="Gradle.testCource [build]" />
-        <item itemvalue="Gradle.testCource:selenium [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
-    <option name="lastUrl" value="https://demoqa.com/text-box" />
+    <option name="lastUrl" value="https://demoqa.com/checkbox" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -272,6 +268,7 @@
       <workItem from="1690055509554" duration="560000" />
       <workItem from="1690056224814" duration="1340000" />
       <workItem from="1690092368809" duration="13295000" />
+      <workItem from="1690122560059" duration="9903000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <option name="closed" value="true" />
