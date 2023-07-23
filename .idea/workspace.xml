@@ -4,30 +4,24 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="add ConfigurationProvider.java and setting up">
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05e8a1d15b11a69720c2918e038bb4cfaccfa28b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc9143cd34dbb1f90e925aaf8fbca971290cc061" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05e8a1d15b11a69720c2918e038bb4cfaccfa28b" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/0/5/05efc8b1657769a27696d478ded1e95f38737233" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/2/a/2a45a911a8f1836b0b6c5b758962572012d8f8c3" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/5/b/5bbfa66edb4db3c7c33c5181f43510990d3307f9" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/a/5/a5cc2925ca8258af241be7e5b0381edf30266302" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/b/fbe448ebfc3eb2d4e308f6b8b043666f5b57235e" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fc9143cd34dbb1f90e925aaf8fbca971290cc061" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BasePage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" afterDir="false" />
+    <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="add test textBox element on demoqa">
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/MainPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/ElementPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/TextBox.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/Ticket.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/ResponseConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/f/c/fc9143cd34dbb1f90e925aaf8fbca971290cc061" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/0/f07866736216be0ee2aba49e392191aeae700a35" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/f/c/fc9143cd34dbb1f90e925aaf8fbca971290cc061" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/readProperties/ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/readProperties/ConfigurationProvider.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/resources/application.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,6 +51,17 @@
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
                 <item name="testCource" type="f1a62948:ProjectNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testCource" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+              </path>
+              <path>
+                <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
+                <item name="testCource" type="f1a62948:ProjectNode" />
+                <item name="Tasks" type="e4a08cd1:TasksNode" />
+                <item name="build" type="c8890929:TasksNode$1" />
               </path>
               <path>
                 <item name="" type="6a2764b6:ExternalProjectsStructure$RootNode" />
@@ -122,7 +127,79 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.testCource:selenium [build]">
+  <component name="RunManager" selected="Gradle.StartTests">
+    <configuration name="DemoQaElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":selenium:test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stepchenkov.test.demoqa.DemoQaElementsTest&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="DemoQaElementsTest.checkTextBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":selenium:test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stepchenkov.test.demoqa.DemoQaElementsTest.checkTextBox&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
+    <configuration name="StartTests" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":selenium:test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stepchenkov.test.demoqa.StartTests&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="testCource [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -169,13 +246,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.testCource:selenium [build]" />
+        <item itemvalue="Gradle.StartTests" />
+        <item itemvalue="Gradle.DemoQaElementsTest" />
+        <item itemvalue="Gradle.DemoQaElementsTest.checkTextBox" />
         <item itemvalue="Gradle.testCource [build]" />
+        <item itemvalue="Gradle.testCource:selenium [build]" />
       </list>
     </recent_temporary>
   </component>
   <component name="SeleniumInternalSettingsState">
-    <option name="lastUrl" value="https://ya.ru/?clid=2817230" />
+    <option name="lastUrl" value="https://demoqa.com/text-box" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -191,6 +271,7 @@
       <workItem from="1690055466759" duration="29000" />
       <workItem from="1690055509554" duration="560000" />
       <workItem from="1690056224814" duration="1340000" />
+      <workItem from="1690092368809" duration="13295000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <option name="closed" value="true" />
@@ -228,6 +309,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first init" />
     <MESSAGE value="add ConfigurationProvider.java and setting up" />
-    <option name="LAST_COMMIT_MESSAGE" value="add ConfigurationProvider.java and setting up" />
+    <MESSAGE value="add test textBox element on demoqa" />
+    <option name="LAST_COMMIT_MESSAGE" value="add test textBox element on demoqa" />
   </component>
 </project>

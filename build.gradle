@@ -30,11 +30,17 @@ subprojects {
 
     configurations {
         testImplementation.extendsFrom annotationProcessor
+        testAnnotationProcessor.extendsFrom annotationProcessor
     }
 
     dependencies {
         testImplementation platform('org.junit:junit-bom:5.9.1')
         testImplementation 'org.junit.jupiter:junit-jupiter'
+
+        testImplementation 'org.assertj:assertj-core:3.21.0'
+
+        testCompileOnly 'org.projectlombok:lombok:1.18.28'
+        testAnnotationProcessor 'org.projectlombok:lombok:1.18.28'
     }
 
     test {
