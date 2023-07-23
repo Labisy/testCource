@@ -4,10 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.util.SpecialService;
 
 import java.util.List;
 
-public final class HomeCheckBox extends BasePage {
+public final class HomeCheckBox extends BasePage implements SpecialService {
 
     @FindBy(xpath = "//*[@id=\"tree-node\"]/ol/li/span/button")
     private WebElement expandLiElements;
@@ -74,7 +75,7 @@ public final class HomeCheckBox extends BasePage {
         );
     }
 
-    private void offAnySelected() {
+    public void offAnySelected() {
         if (homeCB.isSelected()) homeLabel.click();
         if (desktopCB.isSelected()) desktopLabel.click();
         if (documentsCB.isSelected()) documentsLabel.click();

@@ -3,9 +3,11 @@ package ru.stepchenkov.test.core;
 import io.github.bonigarcia.wdm.WebDriverManager;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.BeforeEach;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import ru.stepchenkov.test.readProperties.ConfigurationProvider;
 
 import java.util.concurrent.TimeUnit;
 
@@ -27,6 +29,11 @@ abstract public class BaseTestSetup {
         driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
         BasePage.setDriver(driver);
+    }
+
+    @BeforeEach
+    void openMainPage() {
+        driver.get(ConfigurationProvider.URL);
     }
 
     @AfterAll

@@ -13,7 +13,6 @@ public class MainPage extends BasePage {
     private WebElement elements;
 
     public MainPage() {
-        driver.get(ConfigurationProvider.URL);
         PageFactory.initElements(driver, this);
     }
 
