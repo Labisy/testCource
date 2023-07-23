@@ -4,10 +4,8 @@ import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import ru.stepchenkov.test.core.BaseTestSetup;
 import ru.stepchenkov.test.demoqa.pages.MainPage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.CheckBox;
 import ru.stepchenkov.test.readProperties.ConfigurationProvider;
-
-import java.util.List;
+import ru.stepchenkov.test.util.CheckBoxUtil;
 
 class StartTests extends BaseTestSetup {
 
@@ -33,26 +31,8 @@ class StartTests extends BaseTestSetup {
         var checkBoxPage = new MainPage()
                 .getElementPage()
                 .checkBox();
-        homeCheckBox(checkBoxPage);
-        desktopCheckBox(checkBoxPage);
-    }
-    private void homeCheckBox(CheckBox checkBoxPage) {
-        checkBoxTesting(checkBoxPage.clickHomeCheckBox(), true, true, true);
-        checkBoxTesting(checkBoxPage.clickDocumentsInHome(), false, false, false);
-        checkBoxTesting(checkBoxPage.clickDesktopInHome(), false, false, false);
-        checkBoxTesting(checkBoxPage.clickDownloadInHome(), false, false, false);
-    }
-
-    private void desktopCheckBox(CheckBox checkBoxPage) {
-        checkBoxTesting(checkBoxPage.clickDesktopCheckBox(), true, true, true);
-        checkBoxTesting(checkBoxPage.clickNotesInDesktop(), false, true, false);
-        checkBoxTesting(checkBoxPage.clickCommandInDesktop(), false, false, true);
-    }
-
-    private void checkBoxTesting(List<Boolean> list, boolean... value) {
-        Assertions.assertThat(list)
-                .isNotNull()
-                .hasSize(3)
-                .containsExactlyInAnyOrder(value[0], value[1], value[2]);
+        CheckBoxUtil.homeCheckBox(checkBoxPage);
+        CheckBoxUtil.desktopCheckBox(checkBoxPage);
+        CheckBoxUtil.downloadCheckBox(checkBoxPage);
     }
 }

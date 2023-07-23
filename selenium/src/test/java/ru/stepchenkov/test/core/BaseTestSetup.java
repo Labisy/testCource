@@ -19,9 +19,6 @@ abstract public class BaseTestSetup {
     static void init() {
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
-        // Открытие в полный экран
-        driver.manage().window().maximize();
-
         /*
          * Ожидание загрузки страницы
          * Время ожидание загрузки элемента на странице
