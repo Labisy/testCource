@@ -1,7 +1,7 @@
 package ru.stepchenkov.test.demoqa.pages.elementsPage.elements;
 
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.HomeCheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.HomeCheckBox;
 
 import java.util.List;
 

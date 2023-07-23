@@ -4,7 +4,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.Ticket;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.textBox.Ticket;
 import ru.stepchenkov.test.util.ResponseConverter;
 
 public class TextBox extends BasePage {

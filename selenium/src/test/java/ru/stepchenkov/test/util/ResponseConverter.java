@@ -1,6 +1,6 @@
 package ru.stepchenkov.test.util;
 
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.Ticket;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.textBox.Ticket;
 
 public class ResponseConverter {
 
