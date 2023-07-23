@@ -4,11 +4,11 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.util.SpecialService;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.util.SpecialRepo;
 
 import java.util.List;
 
-public final class HomeCheckBox extends BasePage implements SpecialService {
+public final class HomeCheckBox extends BasePage implements SpecialRepo {
 
     @FindBy(xpath = "//*[@id=\"tree-node\"]/ol/li/span/button")
     private WebElement expandLiElements;

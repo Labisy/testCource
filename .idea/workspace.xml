@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="realise DesktopCheckBox and test this in StartTests.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/DownloadCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/DownloadCheckBox.java" afterDir="false" />
+    <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="realise DownloadCheckBox.java and add util class for realise CheckBox methods">
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/AbstractCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/AbstractCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/HomeCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/HomeCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/util/SpecialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/util/SpecialRepo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -78,8 +77,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -261,7 +260,7 @@
       <workItem from="1690055509554" duration="560000" />
       <workItem from="1690056224814" duration="1340000" />
       <workItem from="1690092368809" duration="13295000" />
-      <workItem from="1690122560059" duration="14048000" />
+      <workItem from="1690122560059" duration="14456000" />
     </task>
     <task id="LOCAL-00001" summary="first init">
       <option name="closed" value="true" />
@@ -303,7 +302,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690138617267</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="realise DownloadCheckBox.java and add util class for realise CheckBox methods">
+      <option name="closed" value="true" />
+      <created>1690139853831</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1690139853831</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -327,6 +334,7 @@
     <MESSAGE value="add test CheckBox element on demoqa" />
     <MESSAGE value="add AbstractCheckBox and rename classes" />
     <MESSAGE value="realise DesktopCheckBox and test this in StartTests.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="realise DesktopCheckBox and test this in StartTests.java" />
+    <MESSAGE value="realise DownloadCheckBox.java and add util class for realise CheckBox methods" />
+    <option name="LAST_COMMIT_MESSAGE" value="realise DownloadCheckBox.java and add util class for realise CheckBox methods" />
   </component>
 </project>
