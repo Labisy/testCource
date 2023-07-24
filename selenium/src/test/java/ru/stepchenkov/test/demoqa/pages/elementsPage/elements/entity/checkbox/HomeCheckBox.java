@@ -33,7 +33,7 @@ public final class HomeCheckBox extends BasePage implements SpecialRepo {
         PageFactory.initElements(driver, this);
         expandLiElements.click();
     }
-    public List<Boolean> clickHomeCB() {
+    public List<Boolean> clickHome() {
         offAnySelected();
 
         homeLabel.click();

@@ -20,7 +20,7 @@ public class CheckBox extends BasePage {
     }
 
     public List<Boolean> clickHomeCheckBox() {
-        return homeCheckBox.clickHomeCB();
+        return homeCheckBox.clickHome();
     }
 
     public List<Boolean> clickDocumentsInHome() {

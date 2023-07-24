@@ -5,9 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="realise DownloadCheckBox.java and add util class for realise CheckBox methods">
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/AbstractCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/AbstractCheckBox.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/HomeCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/HomeCheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/util/SpecialService.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/util/SpecialRepo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/documents/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/documents/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/CheckBoxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/CheckBoxUtil.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

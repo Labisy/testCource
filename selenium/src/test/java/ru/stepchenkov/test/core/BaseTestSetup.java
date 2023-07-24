@@ -23,8 +23,8 @@ abstract public class BaseTestSetup {
          * Ожидание загрузки страницы
          * Время ожидание загрузки элемента на странице
          */
-        driver.manage().timeouts().pageLoadTimeout(50, TimeUnit.SECONDS);
-        driver.manage().timeouts().implicitlyWait(60, TimeUnit.SECONDS);
+        driver.manage().timeouts().pageLoadTimeout(80, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(90, TimeUnit.SECONDS);
         BasePage.setDriver(driver);
     }
 

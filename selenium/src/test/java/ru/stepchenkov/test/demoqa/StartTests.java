@@ -10,7 +10,7 @@ import ru.stepchenkov.test.util.CheckBoxUtil;
 class StartTests extends BaseTestSetup {
 
     @Test
-    void checkTextBox() {
+    void textBox() {
         var response = new MainPage()
                 .getElementPage()
                 .textBox()
@@ -31,8 +31,8 @@ class StartTests extends BaseTestSetup {
         var checkBoxPage = new MainPage()
                 .getElementPage()
                 .checkBox();
-        CheckBoxUtil.homeCheckBox(checkBoxPage);
-        CheckBoxUtil.desktopCheckBox(checkBoxPage);
-        CheckBoxUtil.downloadCheckBox(checkBoxPage);
+        CheckBoxUtil.homeGroupCheckBox(checkBoxPage);
+        CheckBoxUtil.desktopGroupCheckBox(checkBoxPage);
+        CheckBoxUtil.downloadGroupCheckBox(checkBoxPage);
     }
 }
