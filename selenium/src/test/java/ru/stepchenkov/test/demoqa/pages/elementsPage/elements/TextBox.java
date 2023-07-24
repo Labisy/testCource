@@ -5,7 +5,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
 import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.textBox.Ticket;
-import ru.stepchenkov.test.util.ResponseConverter;
+import ru.stepchenkov.test.util.TextBoxUtil;
 
 public class TextBox extends BasePage {
 
@@ -55,7 +55,7 @@ public class TextBox extends BasePage {
      * @return class Ticket
      */
     public Ticket findTicket() {
-        return ResponseConverter.getNormalTiket(
+        return TextBoxUtil.getNormalTicket(
                 ticketName.getText(),
                 ticketEmail.getText(),
                 ticketAddress.getText(),
