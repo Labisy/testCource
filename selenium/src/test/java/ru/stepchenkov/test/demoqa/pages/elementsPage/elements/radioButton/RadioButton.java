@@ -1,10 +1,10 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.radioButton.ListAndData;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton.entity.ListAndData;
 
 import java.util.List;
 

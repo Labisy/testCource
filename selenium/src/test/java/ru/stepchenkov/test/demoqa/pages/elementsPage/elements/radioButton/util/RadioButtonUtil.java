@@ -1,13 +1,11 @@
-package ru.stepchenkov.test.util;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton.util;
 
 import org.assertj.core.api.Assertions;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.RadioButton;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.radioButton.ListAndData;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton.RadioButton;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton.entity.ListAndData;
 import ru.stepchenkov.test.readProperties.ConfigurationProvider;
 
 import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
 
 public final class RadioButtonUtil {
 

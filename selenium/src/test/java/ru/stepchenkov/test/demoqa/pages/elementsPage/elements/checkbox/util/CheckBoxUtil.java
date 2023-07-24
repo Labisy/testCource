@@ -1,7 +1,7 @@
-package ru.stepchenkov.test.util;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.util;
 
 import org.assertj.core.api.Assertions;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.CheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.CheckBox;
 
 import java.util.List;
 

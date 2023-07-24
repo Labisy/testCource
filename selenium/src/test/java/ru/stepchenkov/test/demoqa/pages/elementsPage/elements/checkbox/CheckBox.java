@@ -1,9 +1,9 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox;
 
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.DesktopCheckBox;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.DownloadCheckBox;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.HomeCheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity.DesktopCheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity.DownloadCheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity.HomeCheckBox;
 
 import java.util.List;
 

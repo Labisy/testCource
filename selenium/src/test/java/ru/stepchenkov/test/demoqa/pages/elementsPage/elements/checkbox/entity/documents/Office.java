@@ -1,8 +1,8 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.documents;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity.documents;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.AbstractCheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity.AbstractCheckBox;
 
 import java.util.List;
 

@@ -1,10 +1,10 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox.util.SpecialRepo;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity.util.SpecialRepo;
 
 import java.util.List;
 

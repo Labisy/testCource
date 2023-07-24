@@ -4,9 +4,9 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.CheckBox;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.TextBox;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.RadioButton;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.CheckBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.textbox.TextBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton.RadioButton;
 
 public class ElementPage extends BasePage {
 

@@ -1,4 +1,4 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.textBox;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.textbox.entity;
 
 import lombok.*;
 

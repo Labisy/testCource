@@ -1,8 +1,8 @@
-package ru.stepchenkov.test.util;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.textbox.util;
 
 import org.assertj.core.api.Assertions;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.TextBox;
-import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.textBox.Ticket;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.textbox.TextBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.textbox.entity.Ticket;
 import ru.stepchenkov.test.readProperties.ConfigurationProvider;
 
 public final class TextBoxUtil {

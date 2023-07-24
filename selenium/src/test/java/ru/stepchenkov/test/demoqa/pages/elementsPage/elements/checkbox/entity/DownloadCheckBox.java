@@ -1,4 +1,4 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.checkbox;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.checkbox.entity;
 
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;

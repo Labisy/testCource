@@ -1,4 +1,4 @@
-package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.radioButton;
+package ru.stepchenkov.test.demoqa.pages.elementsPage.elements.radioButton.entity;
 
 import java.util.List;
 
