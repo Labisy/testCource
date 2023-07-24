@@ -35,4 +35,6 @@ public interface ConfigurationProvider {
     String EMAIL = config.getString("element.textBox.ticket.full.email");
     String ADDRESS = config.getString("element.textBox.ticket.full.address");
     String PERMANENT_ADDRESS = config.getString("element.textBox.ticket.full.permanentAddress");
+    String YES = config.getString("element.radioButton.yes");
+    String IMPRESSIVE = config.getString("element.radioButton.impressive");
 }

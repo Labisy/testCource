@@ -6,6 +6,7 @@ import org.openqa.selenium.support.PageFactory;
 import ru.stepchenkov.test.core.BasePage;
 import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.CheckBox;
 import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.TextBox;
+import ru.stepchenkov.test.demoqa.pages.elementsPage.elements.RadioButton;
 
 public class ElementPage extends BasePage {
 
@@ -13,6 +14,8 @@ public class ElementPage extends BasePage {
     private WebElement textBoxBtn;
     @FindBy(id = "item-1")
     private WebElement checkBoxBtn;
+    @FindBy(id = "item-2")
+    private WebElement radioBtn;
 
     public ElementPage() {
         PageFactory.initElements(driver, this);
@@ -28,4 +31,8 @@ public class ElementPage extends BasePage {
         return new CheckBox();
     }
 
+    public RadioButton radioButton() {
+        radioBtn.click();
+        return new RadioButton();
+    }
 }

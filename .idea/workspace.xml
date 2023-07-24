@@ -4,15 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="realise DownloadCheckBox.java and add util class for realise CheckBox methods">
-      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+    <list default="true" id="f54f95da-f202-4047-98cc-3c9d0a3f466d" name="Changes" comment="realise Office">
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/RadioButton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/radioButton/ListAndData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/RadioButtonUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/core/BaseTestSetup.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/StartTests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/CheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/HomeCheckBox.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/HomeCheckBox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/documents/Office.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/elements/entity/checkbox/documents/Office.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/ElementPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/demoqa/pages/elementsPage/ElementPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/readProperties/ConfigurationProvider.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/readProperties/ConfigurationProvider.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/CheckBoxUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/java/ru/stepchenkov/test/util/CheckBoxUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/selenium/src/test/resources/application.conf" beforeDir="false" afterPath="$PROJECT_DIR$/selenium/src/test/resources/application.conf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -118,8 +119,8 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Gradle.StartTests.checkBox">
-    <configuration name="DemoQaElementsTest" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.StartTests.radioButton">
+    <configuration name="RadioButton.t" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
@@ -132,31 +133,7 @@
           <list>
             <option value=":selenium:test" />
             <option value="--tests" />
-            <option value="&quot;ru.stepchenkov.test.demoqa.DemoQaElementsTest&quot;" />
-          </list>
-        </option>
-        <option name="vmOptions" />
-      </ExternalSystemSettings>
-      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
-      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
-      <DebugAllEnabled>false</DebugAllEnabled>
-      <ForceTestExec>true</ForceTestExec>
-      <method v="2" />
-    </configuration>
-    <configuration name="DemoQaElementsTest.checkTextBox" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
-      <ExternalSystemSettings>
-        <option name="executionName" />
-        <option name="externalProjectPath" value="$PROJECT_DIR$" />
-        <option name="externalSystemIdString" value="GRADLE" />
-        <option name="scriptParameters" value="" />
-        <option name="taskDescriptions">
-          <list />
-        </option>
-        <option name="taskNames">
-          <list>
-            <option value=":selenium:test" />
-            <option value="--tests" />
-            <option value="&quot;ru.stepchenkov.test.demoqa.DemoQaElementsTest.checkTextBox&quot;" />
+            <option value="&quot;ru.stepchenkov.test.demoqa.pages.elementsPage.elements.entity.radioButton.RadioButton.t&quot;" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -215,6 +192,30 @@
       <ForceTestExec>true</ForceTestExec>
       <method v="2" />
     </configuration>
+    <configuration name="StartTests.radioButton" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" value="" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value=":selenium:test" />
+            <option value="--tests" />
+            <option value="&quot;ru.stepchenkov.test.demoqa.StartTests.radioButton&quot;" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>false</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <ForceTestExec>true</ForceTestExec>
+      <method v="2" />
+    </configuration>
     <configuration name="testCource [build]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -239,11 +240,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Gradle.StartTests.radioButton" />
+        <item itemvalue="Gradle.RadioButton.t" />
         <item itemvalue="Gradle.StartTests.checkBox" />
         <item itemvalue="Gradle.StartTests" />
         <item itemvalue="Gradle.testCource [build]" />
-        <item itemvalue="Gradle.DemoQaElementsTest" />
-        <item itemvalue="Gradle.DemoQaElementsTest.checkTextBox" />
       </list>
     </recent_temporary>
   </component>
@@ -315,7 +316,15 @@
       <option name="project" value="LOCAL" />
       <updated>1690139853831</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="realise Office">
+      <option name="closed" value="true" />
+      <created>1690189513471</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1690189513471</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -340,6 +349,7 @@
     <MESSAGE value="add AbstractCheckBox and rename classes" />
     <MESSAGE value="realise DesktopCheckBox and test this in StartTests.java" />
     <MESSAGE value="realise DownloadCheckBox.java and add util class for realise CheckBox methods" />
-    <option name="LAST_COMMIT_MESSAGE" value="realise DownloadCheckBox.java and add util class for realise CheckBox methods" />
+    <MESSAGE value="realise Office" />
+    <option name="LAST_COMMIT_MESSAGE" value="realise Office" />
   </component>
 </project>

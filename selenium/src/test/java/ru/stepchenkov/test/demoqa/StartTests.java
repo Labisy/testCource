@@ -6,6 +6,7 @@ import ru.stepchenkov.test.core.BaseTestSetup;
 import ru.stepchenkov.test.demoqa.pages.MainPage;
 import ru.stepchenkov.test.readProperties.ConfigurationProvider;
 import ru.stepchenkov.test.util.CheckBoxUtil;
+import ru.stepchenkov.test.util.RadioButtonUtil;
 
 class StartTests extends BaseTestSetup {
 
@@ -31,8 +32,16 @@ class StartTests extends BaseTestSetup {
         var checkBoxPage = new MainPage()
                 .getElementPage()
                 .checkBox();
-        CheckBoxUtil.homeGroupCheckBox(checkBoxPage);
-        CheckBoxUtil.desktopGroupCheckBox(checkBoxPage);
-        CheckBoxUtil.downloadGroupCheckBox(checkBoxPage);
+        CheckBoxUtil.testHomeGroupCheckBox(checkBoxPage);
+        CheckBoxUtil.testDesktopGroupCheckBox(checkBoxPage);
+        CheckBoxUtil.testDownloadGroupCheckBox(checkBoxPage);
+    }
+
+    @Test
+    void radioButton() {
+        var radioButtonPage = new MainPage().getElementPage().radioButton();
+        RadioButtonUtil.checkBlockUseRadioButton(radioButtonPage);
+        RadioButtonUtil.checkYesClickAndMessage(radioButtonPage);
+        RadioButtonUtil.checkImpressiveClickAndMassage(radioButtonPage);
     }
 }
