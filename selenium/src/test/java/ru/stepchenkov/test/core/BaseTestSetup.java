@@ -19,6 +19,7 @@ abstract public class BaseTestSetup {
     static void init() {
         WebDriverManager.edgedriver().setup();
         driver = new EdgeDriver();
+        driver.manage().window().maximize();
         /*
          * Ожидание загрузки страницы
          * Время ожидание загрузки элемента на странице
